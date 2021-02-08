@@ -22,6 +22,7 @@ let package = Package(
         .target(
             name: "RSFormView",
             dependencies: []),
+          path: "Sources",
         .testTarget(
             name: "RSFormViewTests",
             dependencies: ["RSFormView"]),
