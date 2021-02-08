@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"RSFormView::RSFormViewPackageTests::ProductTarget" /* RSFormViewPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXAggregateTarget "RSFormViewPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_43 /* PBXTargetDependency */,
+			);
+			name = RSFormViewPackageTests;
+			productName = RSFormViewPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_38 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_49 /* RSFormViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* RSFormViewTests.swift */; };
+		OBJ_50 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_52 /* RSFormView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "RSFormView::RSFormView::Product" /* RSFormView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFCD4A525D15FA200A85D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "RSFormView::RSFormView";
+			remoteInfo = RSFormView;
+		};
+		BDFCD4A625D15FA400A85D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "RSFormView::RSFormViewTests";
+			remoteInfo = RSFormViewTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDFCD4A925D15FCA00A85D45 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		BDFCD4AA25D15FCA00A85D45 /* FormViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewPrivateExtension.swift; sourceTree = "<group>"; };
+		BDFCD4AC25D15FCA00A85D45 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		BDFCD4AD25D15FCA00A85D45 /* TextFieldViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrivateExtension.swift; sourceTree = "<group>"; };
+		BDFCD4AE25D15FCA00A85D45 /* TextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		BDFCD4B025D15FCA00A85D45 /* TwoTextFieldsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldsCell.xib; sourceTree = "<group>"; };
+		BDFCD4B125D15FCA00A85D45 /* FormViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViewCell.xib; sourceTree = "<group>"; };
+		BDFCD4B225D15FCA00A85D45 /* TwoTextFieldsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsCell.swift; sourceTree = "<group>"; };
+		BDFCD4B325D15FCA00A85D45 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		BDFCD4B425D15FCA00A85D45 /* FormTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTextCell.xib; sourceTree = "<group>"; };
+		BDFCD4B525D15FCA00A85D45 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		BDFCD4B625D15FCA00A85D45 /* FormTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextCell.swift; sourceTree = "<group>"; };
+		BDFCD4B925D15FCA00A85D45 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		BDFCD4BA25D15FCA00A85D45 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BDFCD4BB25D15FCA00A85D45 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BDFCD4BD25D15FCA00A85D45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDFCD4BE25D15FCA00A85D45 /* TwoTextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4BF25D15FCA00A85D45 /* TextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4C025D15FCA00A85D45 /* FormConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConfigurator.swift; sourceTree = "<group>"; };
+		BDFCD4C125D15FCA00A85D45 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		BDFCD4C225D15FCA00A85D45 /* AddressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressManager.swift; sourceTree = "<group>"; };
+		BDFCD4C325D15FCA00A85D45 /* TextCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4C625D15FCA00A85D45 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		BDFCD4C725D15FCA00A85D45 /* BasicFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFormViewModel.swift; sourceTree = "<group>"; };
+		OBJ_12 /* RSFormViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFormViewTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* VanillaExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VanillaExample; sourceTree = SOURCE_ROOT; };
+		OBJ_18 /* FullFormExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FullFormExample; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* RSFormView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RSFormView; sourceTree = SOURCE_ROOT; };
+		OBJ_20 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_21 /* RSFormView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RSFormView.podspec; sourceTree = "<group>"; };
+		OBJ_22 /* editBorders.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = editBorders.gif; sourceTree = "<group>"; };
+		OBJ_23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_24 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		OBJ_25 /* formExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = formExample.gif; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"RSFormView::RSFormView::Product" /* RSFormView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RSFormView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"RSFormView::RSFormViewTests::Product" /* RSFormViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RSFormViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_52 /* RSFormView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFCD4A725D15FCA00A85D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4A825D15FCA00A85D45 /* Form */,
+				BDFCD4AB25D15FCA00A85D45 /* TextField */,
+				BDFCD4AF25D15FCA00A85D45 /* Cell */,
+			);
+			name = Views;
+			path = RSFormView/Classes/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		BDFCD4A825D15FCA00A85D45 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4A925D15FCA00A85D45 /* FormView.swift */,
+				BDFCD4AA25D15FCA00A85D45 /* FormViewPrivateExtension.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		BDFCD4AB25D15FCA00A85D45 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4AC25D15FCA00A85D45 /* TextFieldView.swift */,
+				BDFCD4AD25D15FCA00A85D45 /* TextFieldViewPrivateExtension.swift */,
+				BDFCD4AE25D15FCA00A85D45 /* TextFieldView.xib */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		BDFCD4AF25D15FCA00A85D45 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4B025D15FCA00A85D45 /* TwoTextFieldsCell.xib */,
+				BDFCD4B125D15FCA00A85D45 /* FormViewCell.xib */,
+				BDFCD4B225D15FCA00A85D45 /* TwoTextFieldsCell.swift */,
+				BDFCD4B325D15FCA00A85D45 /* TextFieldCell.swift */,
+				BDFCD4B425D15FCA00A85D45 /* FormTextCell.xib */,
+				BDFCD4B525D15FCA00A85D45 /* FormCell.swift */,
+				BDFCD4B625D15FCA00A85D45 /* FormTextCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BDFCD4B825D15FCA00A85D45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4B925D15FCA00A85D45 /* ViewExtension.swift */,
+				BDFCD4BA25D15FCA00A85D45 /* ColorExtension.swift */,
+				BDFCD4BB25D15FCA00A85D45 /* StringExtension.swift */,
+			);
+			name = Extensions;
+			path = RSFormView/Classes/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		BDFCD4BC25D15FCA00A85D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4BD25D15FCA00A85D45 /* Constants.swift */,
+				BDFCD4BE25D15FCA00A85D45 /* TwoTextFieldCellItem.swift */,
+				BDFCD4BF25D15FCA00A85D45 /* TextFieldCellItem.swift */,
+				BDFCD4C025D15FCA00A85D45 /* FormConfigurator.swift */,
+				BDFCD4C125D15FCA00A85D45 /* FormField.swift */,
+				BDFCD4C225D15FCA00A85D45 /* AddressManager.swift */,
+				BDFCD4C325D15FCA00A85D45 /* TextCellItem.swift */,
+			);
+			name = Models;
+			path = RSFormView/Classes/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		BDFCD4C525D15FCA00A85D45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4C625D15FCA00A85D45 /* FormViewModel.swift */,
+				BDFCD4C725D15FCA00A85D45 /* BasicFormViewModel.swift */,
+			);
+			name = ViewModels;
+			path = RSFormView/Classes/ViewModels;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* RSFormViewTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* RSFormViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* RSFormViewTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = RSFormViewTests;
+			path = Tests/RSFormViewTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"RSFormView::RSFormViewTests::Product" /* RSFormViewTests.xctest */,
+				"RSFormView::RSFormView::Product" /* RSFormView.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* VanillaExample */,
+				OBJ_18 /* FullFormExample */,
+				OBJ_19 /* RSFormView */,
+				OBJ_20 /* LICENSE */,
+				OBJ_21 /* RSFormView.podspec */,
+				OBJ_22 /* editBorders.gif */,
+				OBJ_23 /* README.md */,
+				OBJ_24 /* Gemfile */,
+				OBJ_25 /* formExample.gif */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* RSFormView */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* RSFormView */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4B825D15FCA00A85D45 /* Extensions */,
+				BDFCD4BC25D15FCA00A85D45 /* Models */,
+				BDFCD4C525D15FCA00A85D45 /* ViewModels */,
+				BDFCD4A725D15FCA00A85D45 /* Views */,
+			);
+			name = RSFormView;
+			path = Sources/RSFormView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"RSFormView::RSFormView" /* RSFormView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "RSFormView" */;
+			buildPhases = (
+				OBJ_30 /* Sources */,
+				OBJ_32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSFormView;
+			productName = RSFormView;
+			productReference = "RSFormView::RSFormView::Product" /* RSFormView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"RSFormView::RSFormViewTests" /* RSFormViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "RSFormViewTests" */;
+			buildPhases = (
+				OBJ_48 /* Sources */,
+				OBJ_51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_53 /* PBXTargetDependency */,
+			);
+			name = RSFormViewTests;
+			productName = RSFormViewTests;
+			productReference = "RSFormView::RSFormViewTests::Product" /* RSFormViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"RSFormView::SwiftPMPackageDescription" /* RSFormViewPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXNativeTarget "RSFormViewPackageDescription" */;
+			buildPhases = (
+				OBJ_37 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSFormViewPackageDescription;
+			productName = RSFormViewPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "RSFormView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"RSFormView::RSFormView" /* RSFormView */,
+				"RSFormView::SwiftPMPackageDescription" /* RSFormViewPackageDescription */,
+				"RSFormView::RSFormViewPackageTests::ProductTarget" /* RSFormViewPackageTests */,
+				"RSFormView::RSFormViewTests" /* RSFormViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_38 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_49 /* RSFormViewTests.swift in Sources */,
+				OBJ_50 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "RSFormView::RSFormViewTests" /* RSFormViewTests */;
+			targetProxy = BDFCD4A625D15FA400A85D45 /* PBXContainerItemProxy */;
+		};
+		OBJ_53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "RSFormView::RSFormView" /* RSFormView */;
+			targetProxy = BDFCD4A525D15FA200A85D45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = RSFormView.xcodeproj/RSFormView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RSFormView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RSFormView;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = RSFormView.xcodeproj/RSFormView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RSFormView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RSFormView;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = RSFormView.xcodeproj/RSFormViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RSFormViewTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = RSFormView.xcodeproj/RSFormViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = RSFormViewTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "RSFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_27 /* Build configuration list for PBXNativeTarget "RSFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_34 /* Build configuration list for PBXNativeTarget "RSFormViewPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_40 /* Build configuration list for PBXAggregateTarget "RSFormViewPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_45 /* Build configuration list for PBXNativeTarget "RSFormViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_46 /* Debug */,
+				OBJ_47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
