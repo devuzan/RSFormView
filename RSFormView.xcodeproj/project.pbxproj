@@ -45,30 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BDFCD4A925D15FCA00A85D45 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		BDFCD4AA25D15FCA00A85D45 /* FormViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewPrivateExtension.swift; sourceTree = "<group>"; };
-		BDFCD4AC25D15FCA00A85D45 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		BDFCD4AD25D15FCA00A85D45 /* TextFieldViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrivateExtension.swift; sourceTree = "<group>"; };
-		BDFCD4AE25D15FCA00A85D45 /* TextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
-		BDFCD4B025D15FCA00A85D45 /* TwoTextFieldsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldsCell.xib; sourceTree = "<group>"; };
-		BDFCD4B125D15FCA00A85D45 /* FormViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViewCell.xib; sourceTree = "<group>"; };
-		BDFCD4B225D15FCA00A85D45 /* TwoTextFieldsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsCell.swift; sourceTree = "<group>"; };
-		BDFCD4B325D15FCA00A85D45 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
-		BDFCD4B425D15FCA00A85D45 /* FormTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTextCell.xib; sourceTree = "<group>"; };
-		BDFCD4B525D15FCA00A85D45 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
-		BDFCD4B625D15FCA00A85D45 /* FormTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextCell.swift; sourceTree = "<group>"; };
-		BDFCD4B925D15FCA00A85D45 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		BDFCD4BA25D15FCA00A85D45 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		BDFCD4BB25D15FCA00A85D45 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		BDFCD4BD25D15FCA00A85D45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		BDFCD4BE25D15FCA00A85D45 /* TwoTextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCellItem.swift; sourceTree = "<group>"; };
-		BDFCD4BF25D15FCA00A85D45 /* TextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellItem.swift; sourceTree = "<group>"; };
-		BDFCD4C025D15FCA00A85D45 /* FormConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConfigurator.swift; sourceTree = "<group>"; };
-		BDFCD4C125D15FCA00A85D45 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
-		BDFCD4C225D15FCA00A85D45 /* AddressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressManager.swift; sourceTree = "<group>"; };
-		BDFCD4C325D15FCA00A85D45 /* TextCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellItem.swift; sourceTree = "<group>"; };
-		BDFCD4C625D15FCA00A85D45 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
-		BDFCD4C725D15FCA00A85D45 /* BasicFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFormViewModel.swift; sourceTree = "<group>"; };
+		BDFCD4C925D162F900A85D45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDFCD4CA25D162F900A85D45 /* TwoTextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4CB25D162F900A85D45 /* TextFieldCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4CC25D162F900A85D45 /* FormConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConfigurator.swift; sourceTree = "<group>"; };
+		BDFCD4CD25D162F900A85D45 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		BDFCD4CE25D162F900A85D45 /* AddressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressManager.swift; sourceTree = "<group>"; };
+		BDFCD4CF25D162F900A85D45 /* TextCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellItem.swift; sourceTree = "<group>"; };
+		BDFCD4D125D162F900A85D45 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		BDFCD4D225D162F900A85D45 /* BasicFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFormViewModel.swift; sourceTree = "<group>"; };
+		BDFCD4D525D162F900A85D45 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		BDFCD4D625D162F900A85D45 /* FormViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewPrivateExtension.swift; sourceTree = "<group>"; };
+		BDFCD4D825D162F900A85D45 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		BDFCD4D925D162F900A85D45 /* TextFieldViewPrivateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewPrivateExtension.swift; sourceTree = "<group>"; };
+		BDFCD4DA25D162F900A85D45 /* TextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		BDFCD4DC25D162F900A85D45 /* TwoTextFieldsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldsCell.xib; sourceTree = "<group>"; };
+		BDFCD4DD25D162F900A85D45 /* FormViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViewCell.xib; sourceTree = "<group>"; };
+		BDFCD4DE25D162F900A85D45 /* TwoTextFieldsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsCell.swift; sourceTree = "<group>"; };
+		BDFCD4DF25D162F900A85D45 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		BDFCD4E025D162F900A85D45 /* FormTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTextCell.xib; sourceTree = "<group>"; };
+		BDFCD4E125D162F900A85D45 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		BDFCD4E225D162F900A85D45 /* FormTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextCell.swift; sourceTree = "<group>"; };
+		BDFCD4E425D162F900A85D45 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		BDFCD4E525D162F900A85D45 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BDFCD4E625D162F900A85D45 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		OBJ_12 /* RSFormViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFormViewTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* VanillaExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VanillaExample; sourceTree = SOURCE_ROOT; };
@@ -104,85 +104,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BDFCD4A725D15FCA00A85D45 /* Views */ = {
+		BDFCD4C825D162F900A85D45 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BDFCD4A825D15FCA00A85D45 /* Form */,
-				BDFCD4AB25D15FCA00A85D45 /* TextField */,
-				BDFCD4AF25D15FCA00A85D45 /* Cell */,
+				BDFCD4C925D162F900A85D45 /* Constants.swift */,
+				BDFCD4CA25D162F900A85D45 /* TwoTextFieldCellItem.swift */,
+				BDFCD4CB25D162F900A85D45 /* TextFieldCellItem.swift */,
+				BDFCD4CC25D162F900A85D45 /* FormConfigurator.swift */,
+				BDFCD4CD25D162F900A85D45 /* FormField.swift */,
+				BDFCD4CE25D162F900A85D45 /* AddressManager.swift */,
+				BDFCD4CF25D162F900A85D45 /* TextCellItem.swift */,
+			);
+			name = Models;
+			path = Sources/Models;
+			sourceTree = "<group>";
+		};
+		BDFCD4D025D162F900A85D45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4D125D162F900A85D45 /* FormViewModel.swift */,
+				BDFCD4D225D162F900A85D45 /* BasicFormViewModel.swift */,
+			);
+			name = ViewModels;
+			path = Sources/ViewModels;
+			sourceTree = "<group>";
+		};
+		BDFCD4D325D162F900A85D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDFCD4D425D162F900A85D45 /* Form */,
+				BDFCD4D725D162F900A85D45 /* TextField */,
+				BDFCD4DB25D162F900A85D45 /* Cell */,
 			);
 			name = Views;
-			path = RSFormView/Classes/Views;
-			sourceTree = SOURCE_ROOT;
+			path = Sources/Views;
+			sourceTree = "<group>";
 		};
-		BDFCD4A825D15FCA00A85D45 /* Form */ = {
+		BDFCD4D425D162F900A85D45 /* Form */ = {
 			isa = PBXGroup;
 			children = (
-				BDFCD4A925D15FCA00A85D45 /* FormView.swift */,
-				BDFCD4AA25D15FCA00A85D45 /* FormViewPrivateExtension.swift */,
+				BDFCD4D525D162F900A85D45 /* FormView.swift */,
+				BDFCD4D625D162F900A85D45 /* FormViewPrivateExtension.swift */,
 			);
 			path = Form;
 			sourceTree = "<group>";
 		};
-		BDFCD4AB25D15FCA00A85D45 /* TextField */ = {
+		BDFCD4D725D162F900A85D45 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				BDFCD4AC25D15FCA00A85D45 /* TextFieldView.swift */,
-				BDFCD4AD25D15FCA00A85D45 /* TextFieldViewPrivateExtension.swift */,
-				BDFCD4AE25D15FCA00A85D45 /* TextFieldView.xib */,
+				BDFCD4D825D162F900A85D45 /* TextFieldView.swift */,
+				BDFCD4D925D162F900A85D45 /* TextFieldViewPrivateExtension.swift */,
+				BDFCD4DA25D162F900A85D45 /* TextFieldView.xib */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
 		};
-		BDFCD4AF25D15FCA00A85D45 /* Cell */ = {
+		BDFCD4DB25D162F900A85D45 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				BDFCD4B025D15FCA00A85D45 /* TwoTextFieldsCell.xib */,
-				BDFCD4B125D15FCA00A85D45 /* FormViewCell.xib */,
-				BDFCD4B225D15FCA00A85D45 /* TwoTextFieldsCell.swift */,
-				BDFCD4B325D15FCA00A85D45 /* TextFieldCell.swift */,
-				BDFCD4B425D15FCA00A85D45 /* FormTextCell.xib */,
-				BDFCD4B525D15FCA00A85D45 /* FormCell.swift */,
-				BDFCD4B625D15FCA00A85D45 /* FormTextCell.swift */,
+				BDFCD4DC25D162F900A85D45 /* TwoTextFieldsCell.xib */,
+				BDFCD4DD25D162F900A85D45 /* FormViewCell.xib */,
+				BDFCD4DE25D162F900A85D45 /* TwoTextFieldsCell.swift */,
+				BDFCD4DF25D162F900A85D45 /* TextFieldCell.swift */,
+				BDFCD4E025D162F900A85D45 /* FormTextCell.xib */,
+				BDFCD4E125D162F900A85D45 /* FormCell.swift */,
+				BDFCD4E225D162F900A85D45 /* FormTextCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		BDFCD4B825D15FCA00A85D45 /* Extensions */ = {
+		BDFCD4E325D162F900A85D45 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BDFCD4B925D15FCA00A85D45 /* ViewExtension.swift */,
-				BDFCD4BA25D15FCA00A85D45 /* ColorExtension.swift */,
-				BDFCD4BB25D15FCA00A85D45 /* StringExtension.swift */,
+				BDFCD4E425D162F900A85D45 /* ViewExtension.swift */,
+				BDFCD4E525D162F900A85D45 /* ColorExtension.swift */,
+				BDFCD4E625D162F900A85D45 /* StringExtension.swift */,
 			);
 			name = Extensions;
-			path = RSFormView/Classes/Extensions;
-			sourceTree = SOURCE_ROOT;
-		};
-		BDFCD4BC25D15FCA00A85D45 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				BDFCD4BD25D15FCA00A85D45 /* Constants.swift */,
-				BDFCD4BE25D15FCA00A85D45 /* TwoTextFieldCellItem.swift */,
-				BDFCD4BF25D15FCA00A85D45 /* TextFieldCellItem.swift */,
-				BDFCD4C025D15FCA00A85D45 /* FormConfigurator.swift */,
-				BDFCD4C125D15FCA00A85D45 /* FormField.swift */,
-				BDFCD4C225D15FCA00A85D45 /* AddressManager.swift */,
-				BDFCD4C325D15FCA00A85D45 /* TextCellItem.swift */,
-			);
-			name = Models;
-			path = RSFormView/Classes/Models;
-			sourceTree = SOURCE_ROOT;
-		};
-		BDFCD4C525D15FCA00A85D45 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				BDFCD4C625D15FCA00A85D45 /* FormViewModel.swift */,
-				BDFCD4C725D15FCA00A85D45 /* BasicFormViewModel.swift */,
-			);
-			name = ViewModels;
-			path = RSFormView/Classes/ViewModels;
-			sourceTree = SOURCE_ROOT;
+			path = Sources/Extensions;
+			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
@@ -234,21 +234,12 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* RSFormView */,
+				BDFCD4E325D162F900A85D45 /* Extensions */,
+				BDFCD4C825D162F900A85D45 /* Models */,
+				BDFCD4D025D162F900A85D45 /* ViewModels */,
+				BDFCD4D325D162F900A85D45 /* Views */,
 			);
 			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* RSFormView */ = {
-			isa = PBXGroup;
-			children = (
-				BDFCD4B825D15FCA00A85D45 /* Extensions */,
-				BDFCD4BC25D15FCA00A85D45 /* Models */,
-				BDFCD4C525D15FCA00A85D45 /* ViewModels */,
-				BDFCD4A725D15FCA00A85D45 /* Views */,
-			);
-			name = RSFormView;
-			path = Sources/RSFormView;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
