@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "RSFormView",
-            dependencies: []),
-          path: "Sources",
+            dependencies: [],
+          path: "Sources"),
         .testTarget(
             name: "RSFormViewTests",
             dependencies: ["RSFormView"]),
